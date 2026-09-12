@@ -1,40 +1,19 @@
 {
+	"clientVersion": "15.25",
 	"launcherVersion": "1.0",
-	"clients": [
+	"replaceFolders": true,
+	"replaceFolderName": [
 		{
-			"name": "Tibia Official",
-			"clientVersion": "15.25.3a4a52",
-			"replaceFolders": true,
-			"replaceFolderName": [
-				{
-					"name": "assets"
-				},
-				{
-					"name": "storeimages"
-				},
-				{
-					"name": "bin"
-				}
-			],
-			"clientFolder": "Sextera",
-			"newClientUrl" : "https://github.com/opentibiabr/canary-launcher/releases/download/1.0.0/client-to-update.zip",
-			"clientExecutable": "client.exe"
+			"name": "assets"
 		},
 		{
-			"name": "OTC Redemption",
-			"clientVersion": "1.0.0",
-			"replaceFolders": true,
-			"replaceFolderName": [
-				{
-					"name": "data"
-				},
-				{
-					"name": "modules"
-				}
-			],
-			"clientFolder": "OTCRedemption",
-			"newClientUrl" : "https://example.com/otc-redemption.zip",
-			"clientExecutable": "otclient.exe"
+			"name": "storeimages"
+		},
+		{
+			"name": "bin"
 		}
-	]
+	],
+	"clientFolder": "Sextera",
+	"newClientUrl" : "https://sexteraot.online/downloads/client1525.zip",
+	"clientExecutable": "client.exe"
 }
